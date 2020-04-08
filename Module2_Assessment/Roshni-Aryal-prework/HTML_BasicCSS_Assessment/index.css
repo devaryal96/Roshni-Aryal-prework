@@ -1,0 +1,50 @@
+#container{
+    height: 500px;
+    width: 750px;
+    box-sizing: border-box;
+    /*vertical-align: middle;*/
+    background-color: #5dbcd2
+}
+
+#top{
+ 
+    color: white;
+    /*font-size: 20px;*/
+
+}
+  
+
+  #para{
+      
+      text-align: center;
+      text-transform: uppercase;
+      /*font-size: 10px;*/
+      color :black;
+      font-size: x-small;
+      margin-bottom: 8px;
+      
+      
+  }
+
+  #big{
+      margin-top: 15px;
+      text-align: center;
+      font-size: 50px;
+       font-family: arial, sans-serif;
+      color: white;
+      margin-bottom: 0px;
+  }
+
+  #button{
+     
+      margin: auto;
+      margin-top: 20px;
+      border: 1px solid white;
+      width: 15%;
+      font-size: x-small;
+      color: white;
+      text-align: center;
+      padding: 3px;
+      
+     
+  }

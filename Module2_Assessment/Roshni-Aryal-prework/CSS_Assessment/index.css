@@ -1,0 +1,73 @@
+.container{
+    width: 800px;
+     margin: 10px auto;
+
+
+}
+
+
+nav{
+    background-color: grey;
+    text-align: center;
+    animation: myframes 2s ease-in-out 0s;
+
+}
+
+@keyframes myframes{
+    0%{
+        width: 200px;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+#body{
+    background-color: white;
+    overflow: hidden;
+    min-height: 360px;
+    
+    
+}
+
+
+#column1{
+    float: left;
+    background-color: blue;
+    width: 350px;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+
+}
+
+
+#column2{
+    float: right;
+    background-color: red;
+    width: 180px;
+    height: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+footer{
+
+    animation: myframes 2s ease-in-out 0s;
+    background-color: green;
+    text-align: center;
+   
+
+
+}
+ 
+
+
+
